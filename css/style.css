@@ -1,0 +1,38 @@
+header {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+}
+main {
+    height: 300px;
+    width: 300px;
+    background-color: chartreuse;
+}
+footer {
+    height: 300px;
+    width: 300px;
+    background-color: indianred;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: start;
+    align-content: center;
+}
+div{
+    display: grid  ;
+    grid-template-columns: 1fr 1fr;
+    justify-content: start;
+    align-content: center;
+}
+p {
+    font-size: 1.5 rem;
+}
+div {
+    font-size: 2 rem;
+}
+h2{
+    font-size: 3em;
+}
+#tigerimage {
+    height: 150px;
+    width: 300px;
+}
